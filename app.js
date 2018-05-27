@@ -1,4 +1,8 @@
+do  
 cant = prompt('¿Cuántos platos hay disponibles en el menú?');
+
+while (cant % 1 != 0)
+
 i=0;
 arrPlatos = [];
 while (i < cant){
